@@ -1,0 +1,19 @@
+JRE -> Java Runtime Environment
+
+    JRE quem usa é o usuário
+    é um sinonimo para JVM
+
+JDK -> Java Development Kit
+
+    Quem usa o JDK é o dev
+
+    Além de conter a JRE, contém o compilador java (javac), javadoc que gera documentações. Além de uma série de ferramentas, se tem o codigo fonte da API do java.
+
+
+Ambos utilizam a Java Virtual MAchine (JVM) 
+
+O arquivo . java será transformado em um arquivo .class (ByteCode) 
+
+A JVM é responsável por traduzir o arquivo .class para a linguagem do sistema operacional em que ela está instalada.
+
+Isso permite que o codigo que foi escrito e compilado uma unica vez possa rodar em qualquer lugar
