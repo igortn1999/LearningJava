@@ -1,0 +1,11 @@
+package exsResolvidos;
+
+public class Ex5Main {
+
+	public static void main(String[] args) {
+		
+		double n1, n2, fim;
+
+	}
+
+}

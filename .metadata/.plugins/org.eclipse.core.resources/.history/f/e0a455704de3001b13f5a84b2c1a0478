@@ -1,0 +1,18 @@
+package aulaVetor;
+
+import java.util.Scanner;
+
+public class Ex2Vetor {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int vet[];
+		
+		int i, N;
+		
+		double media=0.0, soma=0.0;
+	}
+
+}

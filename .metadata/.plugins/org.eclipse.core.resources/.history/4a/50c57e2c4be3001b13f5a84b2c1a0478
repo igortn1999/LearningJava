@@ -1,0 +1,16 @@
+package aulaVetor;
+
+import java.util.Scanner;
+
+public class ExVetor1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] vet;
+		
+		int i,N;
+	}
+
+}

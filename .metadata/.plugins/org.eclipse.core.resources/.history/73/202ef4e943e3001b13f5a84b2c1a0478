@@ -1,0 +1,15 @@
+package aulaVetor;
+
+public class VetorMain {
+
+	public static void main(String[] args) {
+		
+		int[] vetI;
+		double vetD[];
+		
+		vetI = new int[10];
+		vetD= new double[10];
+		
+	}
+
+}

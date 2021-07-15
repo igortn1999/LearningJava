@@ -1,0 +1,14 @@
+package cap1.fundamentos;
+
+public class OperadorTernario {
+
+	public static void main(String[] args) {
+		
+		double media = 7.6;
+		
+		String resultado;
+		
+		
+	}
+
+}

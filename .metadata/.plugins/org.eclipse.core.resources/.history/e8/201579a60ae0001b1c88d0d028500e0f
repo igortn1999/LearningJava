@@ -1,0 +1,21 @@
+package exsResolvidos;
+
+import java.util.Scanner;
+
+public class Ex7Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int n1, n2, n3;
+		int menor = 99999;
+		
+		System.out.println("N1 = ?");
+		sc.nextInt();
+		
+		
+		
+	}
+
+}

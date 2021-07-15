@@ -1,0 +1,21 @@
+package aulaVetor;
+
+import java.util.Scanner;
+
+public class Ex3Vettor {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("N =?");
+		int N = sc.nextInt();
+		
+		int[] vet = new int[N];
+		
+		for(i=0;i<N;i++){
+			
+		}
+	}
+
+}

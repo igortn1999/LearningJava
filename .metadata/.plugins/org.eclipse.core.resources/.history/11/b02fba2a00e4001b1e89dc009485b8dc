@@ -1,0 +1,11 @@
+package cap1.fundamentos;
+
+public class DesafioVarConst {
+
+	public static void main(String[] args) {
+		
+		double C, F;
+		C=F=0.0;
+	}
+
+}

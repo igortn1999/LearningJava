@@ -1,0 +1,33 @@
+package exsResolvidosRepetitivo;
+
+import java.util.Scanner;
+
+public class Ex5RepMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String resp;
+		
+		do {
+			
+			System.out.println("digite a temperatura em ˚C: ");
+			
+			double c = (double) sc.nextDouble();
+			
+			double f = (double) (((9*c)/5)+32);
+			
+			System.out.println(c+"˚C = "+ f+"˚F");
+			
+			System.out.println("Deseja inserir outro valor? (s/n)");
+			resp=sc.next();
+			System.out.println(resp);
+			
+		}while(resp.equals("s"));
+		
+		System.out.println("Fechou");
+		sc.close();
+	}
+
+}

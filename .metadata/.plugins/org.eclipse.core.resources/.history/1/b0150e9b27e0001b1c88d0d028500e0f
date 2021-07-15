@@ -1,0 +1,28 @@
+package estruturarepetitiva;
+
+import java.util.Scanner;
+
+public class While {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		boolean loop = true;
+		int soma = 0;
+		
+		while(true) {
+			
+			while(loop){
+				
+				sysout
+				
+			}
+			
+			
+			
+		}
+
+	}
+
+}

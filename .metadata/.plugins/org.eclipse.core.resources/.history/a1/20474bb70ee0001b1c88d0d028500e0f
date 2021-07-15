@@ -1,0 +1,12 @@
+package exsResolvidos;
+
+public class Ex9Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new scanner(System.in);
+		
+		
+	}
+
+}

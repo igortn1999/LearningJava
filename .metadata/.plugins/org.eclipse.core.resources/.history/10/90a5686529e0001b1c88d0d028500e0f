@@ -1,0 +1,19 @@
+package exsResolvidosRepetitivo;
+
+import java.util.Scanner;
+
+public class Ex1RepMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while(true) {
+			int n1 = sc.nextInt();
+		}
+		
+		sc.close();
+
+	}
+
+}

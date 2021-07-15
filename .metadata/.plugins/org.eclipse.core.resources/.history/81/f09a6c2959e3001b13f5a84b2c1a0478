@@ -1,0 +1,10 @@
+package aulaMatriz;
+
+public class Ex1Matriz {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

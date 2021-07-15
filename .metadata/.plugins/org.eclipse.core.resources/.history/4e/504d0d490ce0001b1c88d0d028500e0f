@@ -1,0 +1,23 @@
+package exsResolvidos;
+
+import java.util.Scanner;
+
+public class Ex8Main {
+
+	public static void main(String[] args) {
+		int valor;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Minutos = ?");
+		int min = sc.nextInt();
+		
+		if(min<=100) {
+			valor
+		}
+		
+		
+		sc.close();
+	}
+
+}

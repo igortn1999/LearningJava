@@ -1,0 +1,29 @@
+package cap1.fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversão {
+
+	public static void main(String[] args) {
+		
+		double sal;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i=0;i<3;i++) {
+			
+			System.out.printf("Digite o seu salario: "+ (i+1)+"/"+"3\n> ");
+			String s = sc.nextLine().replace(',', '.');
+			
+			sal = Double.parseDouble(s);
+			
+		}
+		
+		
+		
+		//System.out.println(sal);
+		
+		sc.close();
+	}
+
+}

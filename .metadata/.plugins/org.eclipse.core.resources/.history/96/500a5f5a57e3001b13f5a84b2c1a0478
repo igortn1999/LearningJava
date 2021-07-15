@@ -1,0 +1,20 @@
+package aulaMatriz;
+
+import java.util.Scanner;
+
+public class MatrizMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		double[][] mDouble;
+		
+		int M = sc.nextInt();
+		int N = sc.nextInt();
+		
+		mDouble = new double[3][4];//[linhas][colunas]
+
+	}
+
+}

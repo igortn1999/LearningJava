@@ -1,0 +1,18 @@
+package exsResolvidosRepetitivo;
+
+import java.util.Scanner;
+
+public class Ex5RepMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		char resp = 's';
+		
+		do {
+			
+		}while();
+	}
+
+}

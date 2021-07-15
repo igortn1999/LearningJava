@@ -1,0 +1,30 @@
+package aulaVetor;
+
+public class VetorMain {
+
+	public static void main(String[] args) {
+		
+		int[] vetI;
+		double vetD[];
+		String[] vetS;
+		
+		vetI = new int[10];
+		vetD= new double[10];
+		vetS = new String[10];
+		
+		vetS[3]= "Olá";
+		
+		System.out.println(vetS[3]);
+		
+		//Exemplo
+		
+		int N, i;
+		int[] vetor;
+		
+		Scanncer sc = new Scanner(System.in);
+		
+		
+		
+	}
+
+}
