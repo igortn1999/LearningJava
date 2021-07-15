@@ -1,0 +1,27 @@
+package sec5_ClassesMetodos;
+
+import sec5_ClassesMetodos.desafioClasseData.ClasseData;
+
+public class ValorVsReferencia {
+	
+	public static void main(String[] args) {
+		
+		double a=2.0;
+		double b = a;//atribuição por valor
+		
+		a++;
+		b--;
+		
+		System.out.println(a +" "+ b);
+		
+		classeData d1 = new ClasseData();
+		
+		Produto p2=p1;//Atribuição por referencia (objeto)
+		
+		
+		
+		
+		
+	}
+
+}

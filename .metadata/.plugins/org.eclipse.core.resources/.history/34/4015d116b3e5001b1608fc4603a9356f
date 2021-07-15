@@ -1,0 +1,15 @@
+package sec5_ClassesMetodos.desafioPrimeiroTrauma;
+
+public class PrimeiroTraumaMain {
+	
+	int a = 3;//não pode mexer
+
+	public static void main(String[] args) {
+		
+		PrimeiroTraumaMain
+		
+		System.out.println(a);
+		
+	}
+
+}

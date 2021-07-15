@@ -1,0 +1,28 @@
+package sec5_ClassesMetodos.desafioClasseData;
+
+public class ClasseData {
+	
+	int dia;
+	int mes;
+	int ano;
+	
+	ClasseData(){
+		dia = 1;
+		mes = 1;
+		ano = 1970;
+	}
+	
+	ClasseData(){
+		
+	}
+	
+	String obterData() {
+		
+		String data =String.format("%d/%d/%d", dia, mes, ano);
+		
+		//Metodo Nikita:
+		//String data = dia + "/" + mes + '/'+ ano;
+		
+		return data;
+	}
+}

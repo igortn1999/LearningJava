@@ -1,0 +1,14 @@
+package sec5_ClassesMetodos.desafioClasseData;
+
+public class TestaClasseData {
+
+	public static void main(String[] args) {
+		
+		ClasseData data1 = new ClasseData();
+		
+		data1.dia = 13;
+		data1.mes = 11;
+		data1.ano = 1999;
+	}
+
+}

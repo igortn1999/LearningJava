@@ -1,0 +1,9 @@
+package sec5_ClassesMetodos.exProduto;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	double desconto;
+
+}

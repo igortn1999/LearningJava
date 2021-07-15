@@ -1,0 +1,16 @@
+package sec5_ClassesMetodos;
+
+public class TestaProduto {
+
+	public static void main(String[] args) {
+		
+		Produto produto1 = new Produto();
+		
+		produto1.nome = "Notebook";
+		produto1.preco = 1299.99;
+		produto1.desconto = 0.25;
+		
+		Produto produto2 = new Produto();
+	}
+
+}

@@ -1,0 +1,19 @@
+package sec5_ClassesMetodos.calcCirculo;
+
+public class MainCirculo {
+
+	public static void main(String[] args) {
+		
+		AreaCirc a = new AreaCirc(5.6);
+		
+		a.pi=9.8;
+		
+		AreaCirc a2 = new AreaCirc(5.6);
+		
+		a2.pi=999999;
+		
+		System.out.println(a.calculaArea());
+		
+	}
+
+}

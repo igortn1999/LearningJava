@@ -1,0 +1,29 @@
+package sec5_ClassesMetodos.desafioProduto;
+
+public class ProdutoDesafio {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	ProdutoDesafio(){//Construtor padrão, que já vem de forma implicita assim que se cria a classe
+		
+	}
+	
+	ProdutoDesafio(String nomeInicial){
+		nome = nomeInicial;
+	}
+	
+	ProdutoDesafio(String nomeInicial, double precoInicial, double descontoInicial){
+		nome = nomeInicial;
+		preco = precoInicial;
+		desconto = descontoInicial;
+		
+	}
+	
+	double precoComDesconto() {
+		
+		return (preco * desconto);
+	}
+
+}

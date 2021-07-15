@@ -1,0 +1,11 @@
+package sec5_ClassesMetodos.calcCirculo;
+
+public class MainCirculo {
+
+	public static void main(String[] args) {
+		
+		AreaCirc a = new AreaCirc(5.6);
+		
+	}
+
+}

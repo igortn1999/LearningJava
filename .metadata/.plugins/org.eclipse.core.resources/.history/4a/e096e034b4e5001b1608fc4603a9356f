@@ -1,0 +1,10 @@
+package sec5_ClassesMetodos.thisEThis;
+
+public class Thises {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

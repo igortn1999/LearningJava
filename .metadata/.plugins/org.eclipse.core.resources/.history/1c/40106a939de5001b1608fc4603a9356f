@@ -1,0 +1,26 @@
+package sec5_ClassesMetodos;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	double desconto;
+	
+	Produto(){//Construtor padrão, que já vem de forma implicita assim que se cria a classe
+		
+	}
+	
+	Produto(String nomeInicial){
+		nome = nomeInicial;
+	}
+	
+	Produto(String nomeIncial, double precoInicial, double descontoInicial){
+		
+	}
+	
+	double precoComDesconto() {
+		
+		return (preco * desconto);
+	}
+
+}

@@ -1,0 +1,25 @@
+package sec5_ClassesMetodos;
+
+public class ValorVsReferencia {
+	
+	public static void main(String[] args) {
+		
+		double a=2.0;
+		double b = a;//atribuição por valor
+		
+		a++;
+		b--;
+		
+		System.out.println(a +" "+ b);
+		
+		Produto p1 = new Produto();
+		
+		Produto p2=p1;//Atribuição por referencia (objeto)
+		
+		
+		
+		
+		
+	}
+
+}

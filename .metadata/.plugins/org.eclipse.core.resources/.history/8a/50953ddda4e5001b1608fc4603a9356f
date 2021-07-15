@@ -1,0 +1,8 @@
+package sec5_ClassesMetodos.calcCirculo;
+
+public class AreaCirc {
+	
+	double raio;
+	double pi;
+
+}

@@ -1,0 +1,16 @@
+package sec5_ClassesMetodos.calcCirculo;
+
+public class AreaCirc {
+	
+	double raio;
+	static double pi=3.14;
+	
+	AreaCirc(double raioInicial){
+		raio = raioInicial;
+	}
+	
+	double calculaArea() {
+		return pi*raio*raio;
+	}
+
+}

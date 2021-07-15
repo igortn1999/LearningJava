@@ -1,0 +1,17 @@
+package sec5_ClassesMetodos.calcCirculo;
+
+public class AreaCirc {
+	
+	double raio;
+	static double pi=3.14;//static faz com que o valor fique atribuido à classe, e não aos n objetos que podem ser criados a partir dela
+						  //static permite também que "pi" possa ser acessado sem que uma instancia dessa classe seja criada. 
+	
+	AreaCirc(double raioInicial){
+		raio = raioInicial;
+	}
+	
+	double calculaArea() {
+		return pi*raio*raio;
+	}
+
+}

@@ -1,4 +1,4 @@
-package Sec3_fundamentos;
+package sec3_fundamentos;
 
 public class ComparacaoStrings {
 	

@@ -1,0 +1,9 @@
+package sec5_ClassesMetodos.desafioProduto;
+
+public class ProdutoDesafio {
+	
+	final static double DESCONTO = 0.25;
+	
+	String nome;
+
+}
