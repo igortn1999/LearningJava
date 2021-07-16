@@ -1,9 +1,0 @@
-package sec5_ClassesMetodos;
-
-public class Produto {
-	
-	String nome;
-	double preco;
-	double desconto;
-
-}

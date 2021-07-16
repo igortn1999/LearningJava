@@ -1,0 +1,13 @@
+package sec6_ArraysColecoes.desafioArray;
+
+import java.util.Scanner;
+
+public class CalculaNotas {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package sec6_ArraysColecoes;
+
+public class Usuario {
+	
+	String nome;
+	String email;
+	
+	Usuario(){
+		
+	}
+	
+	Usuario(){
+		
+	}
+
+}

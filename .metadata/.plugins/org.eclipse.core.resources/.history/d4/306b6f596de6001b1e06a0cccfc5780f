@@ -1,0 +1,10 @@
+package sec6_ArraysColecoes.arrays;
+
+public class matriz {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

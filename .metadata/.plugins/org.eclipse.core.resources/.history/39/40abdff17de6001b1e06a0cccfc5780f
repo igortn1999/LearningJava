@@ -1,0 +1,24 @@
+package sec6_ArraysColecoes.colecoes;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoComportado {
+
+	public static void main(String[] args) {
+		
+		Set<String> listaAprovados = new HashSet<String>();
+		//<Tipo> indica que a lista abriga obrigatoriamente apenas String
+//		lista.add(1.2);//não é mais permitido
+		
+		lista.add("Carlos");
+		lista.add("Ana");
+		lista.add("Jose");
+		
+		for(String candidato : listaAprovados) {
+			System.out.println(candidato);
+		}
+		
+	}
+
+}

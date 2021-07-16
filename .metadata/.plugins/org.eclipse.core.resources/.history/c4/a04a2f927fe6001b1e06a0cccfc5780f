@@ -1,0 +1,16 @@
+package sec6_ArraysColecoes.colecoes;
+
+public class UsuarioColecoes {
+	
+	String nome;
+	
+	UsuarioColecoes(){
+		
+	}
+	
+	UsuarioColecoes(String nome){
+		this.nome=nome;
+		
+	}
+
+}

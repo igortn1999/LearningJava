@@ -1,0 +1,11 @@
+package sec6_ArraysColecoes.colecoes;
+
+public class UsuarioColecoes {
+	
+	String nome;
+	
+	UsuarioColecoes(String nome){
+		
+	}
+
+}

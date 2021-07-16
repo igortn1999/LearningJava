@@ -1,0 +1,10 @@
+package sec6_ArraysColecoes;
+
+public class EqualsHashCode {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

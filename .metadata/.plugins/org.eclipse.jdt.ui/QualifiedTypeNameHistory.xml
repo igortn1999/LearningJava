@@ -5,7 +5,14 @@
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Byte"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="sec5_ClassesMetodos.calcCirculo.AreaCirc"/>
+    <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioProduto.ProdutoDesafio"/>
+    <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioClasseData.ClasseData"/>
+    <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioPrimeiroTrauma.PrimeiroTraumaMain"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
 </qualifiedTypeNameHistroy>
