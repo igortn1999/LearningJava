@@ -1,0 +1,9 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class Motor {
+	
+	double fatorInjecao;
+	
+	
+
+}

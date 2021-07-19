@@ -1,0 +1,17 @@
+package sec7_OrientacaoObjeto.composicao.desafio;
+
+public class Item {
+	
+	int quantidade;
+	
+	Produto produto;
+	
+	Item(){
+		
+	}
+	
+	double valorItem() {
+		return quantidade * produto.preco;
+	}
+
+}

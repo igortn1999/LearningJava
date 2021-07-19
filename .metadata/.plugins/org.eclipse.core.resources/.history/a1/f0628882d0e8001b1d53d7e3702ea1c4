@@ -1,0 +1,12 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class TestaCurso {
+	
+	public static void main(String[] args) {
+		
+		Aluno a1 = new aluno();
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package sec7_OrientacaoObjeto.composicao.desafio;
+
+public class Cliente {
+	
+	String nome;
+	
+	double quantoGastou() {
+		
+		
+		
+		return 0;
+	}
+
+}

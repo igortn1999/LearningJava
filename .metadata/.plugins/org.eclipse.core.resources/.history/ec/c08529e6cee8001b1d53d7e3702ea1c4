@@ -1,0 +1,19 @@
+package sec7_OrientacaoObjeto.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Curso {
+	
+	String nome;
+	
+	List<Aluno> alunos = new ArrayList<>();
+	
+	void adicionaraluno(Aluno aluno) {
+		this.alunos.add(aluno);
+		
+	}
+	
+	
+
+}

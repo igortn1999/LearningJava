@@ -1,0 +1,7 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class Carro {
+	
+	Motor motor = new Motor();
+
+}

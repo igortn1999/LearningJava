@@ -1,0 +1,16 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class TestaCarro {
+
+	public static void main(String[] args) {
+		
+		Carro c1 = new Carro();
+		
+		c1.isLigado();
+		c1.ligar();
+		c1.isLigado();
+		
+		System.out.println(c1.motor.giros());
+	}
+
+}

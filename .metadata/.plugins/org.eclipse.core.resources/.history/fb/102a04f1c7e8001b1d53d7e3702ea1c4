@@ -1,0 +1,12 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class Motor {
+	
+	double fatorInjecao = 1;
+	
+	int  giros() {
+		return fatorInjecao*3000;
+	}
+	
+
+}

@@ -1,0 +1,13 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class Item {
+	
+	String nome;
+	int quantidade;
+	double preco;
+	
+	Item(){
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package sec7_OrientacaoObjeto.composicao.desafio;
+
+public class DesafioTeste {
+
+	public static void main(String[] args) {
+		
+		Cliente jorge = new Cliente("Jorge");
+		
+		Compra duasCalcasUmLapis = new Compra();
+		
+		Item calcas = new Item(new Produto("Tripaloski", 20.39));
+		
+	}
+
+}

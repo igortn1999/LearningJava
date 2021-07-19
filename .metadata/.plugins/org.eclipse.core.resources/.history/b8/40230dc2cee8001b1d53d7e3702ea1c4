@@ -1,0 +1,11 @@
+package sec7_OrientacaoObjeto.composicao;
+
+import java.util.List;
+
+public class Curso {
+	
+	String nome;
+	
+	List<Curso> cursos
+
+}

@@ -1,0 +1,16 @@
+package sec7_OrientacaoObjeto.composicao.desafio;
+
+public class Cliente {
+	
+	String nome;
+	
+	List<Compra> compras = new ArrayList<>();
+	
+	double quantoGastou() {
+		
+		
+		
+		return 0;
+	}
+
+}

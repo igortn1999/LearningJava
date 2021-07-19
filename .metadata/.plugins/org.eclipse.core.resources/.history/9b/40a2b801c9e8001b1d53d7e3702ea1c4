@@ -1,0 +1,28 @@
+package sec7_OrientacaoObjeto.composicao;
+
+public class Carro {
+	
+	Motor motor = new Motor();//1 para 1
+	
+	void acelerar() {
+		
+		motor.fatorInjecao += 0.4;
+		
+	}
+	
+	void frear() {
+		motor.fatorInjecao -= 0.4;
+	}
+	
+	void ligar() {
+		motor.ligado=true;
+	}
+	
+	void desligar() {
+		motor.ligado=false;
+	}
+	
+	boolean isLigado() {
+		return ligado;
+	}
+}
