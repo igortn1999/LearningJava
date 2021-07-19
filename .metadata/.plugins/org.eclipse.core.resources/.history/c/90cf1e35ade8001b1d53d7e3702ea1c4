@@ -1,0 +1,25 @@
+package sec6_ArraysColecoes.colecoes;
+
+import java.util.ArrayList;
+
+public class Lista {
+
+	public static void main(String[] args) {
+		
+		ArrayList<UsuarioColecoes> lista = new ArrayList<>();
+		
+		UsuarioColecoes u1 = new UsuarioColecoes("Ana");
+		
+		lista.add(u1);
+		lista.add(new UsuarioColecoes("Carlos"));
+		lista.add(new UsuarioColecoes("Lia"));
+		lista.add(new UsuarioColecoes("Bia"));
+		lista.add(new UsuarioColecoes("Manu"));
+		
+		
+		for(UsuarioColecoes u : lista) {
+			
+		}
+	}
+
+}

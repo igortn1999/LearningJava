@@ -3,7 +3,6 @@ package sec6_ArraysColecoes.colecoes;
 public class UsuarioColecoes {
 	
 	String nome;
-	
 	UsuarioColecoes(){
 		this("Default");
 	}
@@ -11,6 +10,11 @@ public class UsuarioColecoes {
 	UsuarioColecoes(String nome){
 		this.nome=nome;
 		
+	}
+	
+	@Override
+	public String toString() {
+		return String.format("Olá, meu nome é %s.", this.nome);
 	}
 
 	@Override
