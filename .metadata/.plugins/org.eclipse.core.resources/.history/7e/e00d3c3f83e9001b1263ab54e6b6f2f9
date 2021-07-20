@@ -1,0 +1,9 @@
+package sec7_OrientacaoObjeto.heranca;
+
+public class Jogador {
+	
+	int x;
+	int y;
+	
+	boolean andou;
+}

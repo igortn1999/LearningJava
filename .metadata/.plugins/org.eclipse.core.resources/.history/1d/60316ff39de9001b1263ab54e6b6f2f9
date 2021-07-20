@@ -1,0 +1,13 @@
+package sec7_OrientacaoObjeto.encapsulamento;
+
+import sec7_OrientacaoObjeto.heranca.desafioHeranca.Ferrari;
+
+public class TestaTudo {
+
+	public static void main(String[] args) {
+		
+		Carro c1 = new Ferrari();
+		
+	}
+
+}

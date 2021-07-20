@@ -1,0 +1,10 @@
+package sec7_OrientacaoObjeto.encapsulamento.casaB;
+
+import sec7_OrientacaoObjeto.encapsulamento.casaA.Ana;
+
+public class Pedro extends Ana{
+	
+	Ana mae = new Ana;
+	
+	
+}

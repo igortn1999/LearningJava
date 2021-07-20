@@ -1,0 +1,9 @@
+package sec7_OrientacaoObjeto.polimorfismo;
+
+public class Arroz {
+	
+	public Arroz(int peso) {
+		super(int peso);
+	}
+
+}

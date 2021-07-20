@@ -1,0 +1,10 @@
+package sec7_OrientacaoObjeto.encapsulamento;
+
+public class TestaTudo {
+
+	public static void main(String[] args) {
+		
+		Jogador heroi = new Heroi();
+	}
+
+}

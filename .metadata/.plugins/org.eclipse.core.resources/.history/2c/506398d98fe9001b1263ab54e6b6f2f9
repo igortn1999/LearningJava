@@ -1,0 +1,24 @@
+package sec7_OrientacaoObjeto.heranca.desafioHeranca;
+
+public class Carro {
+	
+	double velocidadeAtual = 0.0;
+	
+	boolean acelerar() {
+		
+		velocidadeAtual+=5.0;
+		return true;
+		
+	}
+	
+	boolean frear() {
+		
+		if(velocidadeAtual<=0.0){
+			velocidadeAtual=0;
+			return false;
+		}
+		velocidadeAtual-=5.0;
+		return true;
+	}
+
+}

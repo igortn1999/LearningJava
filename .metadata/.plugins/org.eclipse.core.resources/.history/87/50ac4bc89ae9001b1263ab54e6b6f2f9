@@ -1,0 +1,9 @@
+package sec7_OrientacaoObjeto.encapsulamento.casaA;
+
+public class Ana {
+	
+	private String segredo = "...";
+	
+	
+
+}

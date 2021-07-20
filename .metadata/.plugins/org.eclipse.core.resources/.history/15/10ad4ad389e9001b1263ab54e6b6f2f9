@@ -1,0 +1,43 @@
+package sec7_OrientacaoObjeto.heranca;
+
+public class Jogador {
+	
+	int x;
+	int y;
+	
+	boolean andar(Direcao d) {
+		
+		switch(d) {
+		
+		case NORTE:
+			y++;
+			return true;
+		
+		case LESTE:
+			x++;
+			return true;
+		
+		case SUL:
+			y--;
+			return true;
+		
+		case OESTE:
+			x--;
+			return true;
+			
+		default: 
+			return false;
+		}
+		
+	}
+	
+	boolean atacar(Jogador oponente){
+		
+		int deltaX = (x - oponente.x);
+		
+		
+		return true;
+	}
+	
+	
+}

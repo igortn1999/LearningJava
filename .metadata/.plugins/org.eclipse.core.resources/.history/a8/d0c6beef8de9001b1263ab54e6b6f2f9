@@ -1,0 +1,10 @@
+package sec7_OrientacaoObjeto.heranca;
+
+public class Monstro extends Jogador{
+	
+@Override
+boolean atacar(Jogador oponente) {
+	// TODO Auto-generated method stub
+	return super.atacar(oponente);
+}
+}

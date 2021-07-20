@@ -27,4 +27,11 @@
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Heroi"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.composicao.TestaCarro"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Jogo"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Ferrari"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Carro"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Monstro"/>
+    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
 </qualifiedTypeNameHistroy>

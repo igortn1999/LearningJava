@@ -1,0 +1,11 @@
+package sec7_OrientacaoObjeto.encapsulamento;
+
+public class TestaTudo {
+
+	public static void main(String[] args) {
+		
+		Carro c1 = new Ferrari();
+		
+	}
+
+}

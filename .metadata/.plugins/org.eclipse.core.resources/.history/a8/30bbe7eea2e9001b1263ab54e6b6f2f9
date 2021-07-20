@@ -1,0 +1,12 @@
+package sec7_OrientacaoObjeto.polimorfismo;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

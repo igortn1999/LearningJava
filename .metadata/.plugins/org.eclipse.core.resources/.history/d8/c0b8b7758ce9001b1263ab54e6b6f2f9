@@ -1,0 +1,5 @@
+package sec7_OrientacaoObjeto.heranca;
+
+public class Monstro extends Jogador{
+
+}

@@ -1,0 +1,20 @@
+package sec7_OrientacaoObjeto.encapsulamento.casaB;
+
+import sec7_OrientacaoObjeto.encapsulamento.casaA.Ana;
+
+public class Pedro extends Ana{
+	
+	Ana mae = new Ana();
+	
+	void testeAcessos() {
+		
+		System.out.println(esposa.segredo);//só a propria classe
+		System.out.println(mae.facoDentroDeCasa);//mesmo pacote
+		System.out.println(mae.FormaDeFalar);//hereditariedade OU mesmo pacote
+		System.out.println(mae.todosSabem);//qualquer um
+		
+		
+	}
+	
+	
+}

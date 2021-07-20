@@ -1,0 +1,5 @@
+package sec7_OrientacaoObjeto.polimorfismo;
+
+public class Sorvete extends ComidaPolimorfa{
+
+}

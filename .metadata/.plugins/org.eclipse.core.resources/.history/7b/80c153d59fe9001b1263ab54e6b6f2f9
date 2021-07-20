@@ -1,0 +1,11 @@
+package sec7_OrientacaoObjeto.encapsulamento;
+
+public class Pessoa {
+	
+	private int idade;
+	
+	public int getIdade() {
+		return this.idade;
+	}
+
+}

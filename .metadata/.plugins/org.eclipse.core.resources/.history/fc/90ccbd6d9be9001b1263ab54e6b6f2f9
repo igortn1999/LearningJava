@@ -1,0 +1,5 @@
+package sec7_OrientacaoObjeto.encapsulamento.casaB;
+
+public class Pedro extends Ana{
+
+}

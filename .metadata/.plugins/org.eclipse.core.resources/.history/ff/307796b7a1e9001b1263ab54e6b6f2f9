@@ -1,0 +1,23 @@
+package sec7_OrientacaoObjeto.polimorfismo;
+
+public class Sorvete {
+	
+	private double peso;
+	
+	public Sorvete(double peso) {
+		
+	}
+
+	public double getPeso() {
+		return this.peso;
+	}
+
+	public void setPeso(double peso) {
+		if(peso>0.0) {
+			this.peso = peso;			
+		}
+	}
+	
+	
+
+}

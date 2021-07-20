@@ -1,0 +1,8 @@
+
+public class Forkbomb {
+	
+	public void fork() {
+		
+	}
+
+}
