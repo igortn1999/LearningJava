@@ -1,0 +1,13 @@
+package sec7_OrientacaoObjeto.abstrato;
+
+public class Cachorro extends Animal{
+
+	@Override
+	public double mover() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

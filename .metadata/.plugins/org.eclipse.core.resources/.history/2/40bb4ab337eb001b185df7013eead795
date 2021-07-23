@@ -1,0 +1,7 @@
+package sec7_OrientacaoObjeto.abstrato;
+
+public abstract class Mamimero extends Animal{
+	
+	
+
+}

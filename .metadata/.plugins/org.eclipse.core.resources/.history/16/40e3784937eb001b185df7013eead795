@@ -1,0 +1,12 @@
+package sec7_OrientacaoObjeto.abstrato;
+
+public class Animal {
+	
+	public String respirar(){
+		return "CO2";
+	}
+	
+	public double mover();
+	}
+
+}

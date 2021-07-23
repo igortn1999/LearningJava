@@ -1,7 +1,0 @@
-package sec5_ClassesMetodos.desafioProduto;
-
-public class ProdutoDesafio {
-	
-	final static double desconto = 0.25;  
-
-}
