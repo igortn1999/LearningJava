@@ -3323,3 +3323,12 @@ Binding(COMMAND+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-07-23 16:58:28.673
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/iloveeclipse/plugins/latest/content.xml
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-07-23 16:58:41.929
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2021-07-23 16:59:12.259
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/iloveeclipse/plugins/latest/artifacts.xml

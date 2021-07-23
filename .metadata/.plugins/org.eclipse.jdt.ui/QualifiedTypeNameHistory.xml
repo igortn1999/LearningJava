@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioProduto.ProdutoDesafio"/>
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioClasseData.ClasseData"/>
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioPrimeiroTrauma.PrimeiroTraumaMain"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
@@ -26,7 +25,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Heroi"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.composicao.TestaCarro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Jogo"/>
@@ -34,4 +32,8 @@
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Carro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Monstro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

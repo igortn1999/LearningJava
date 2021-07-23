@@ -1,0 +1,5 @@
+package sec8_Lambdas;
+
+public interface Soma implements Calculo{
+
+}
