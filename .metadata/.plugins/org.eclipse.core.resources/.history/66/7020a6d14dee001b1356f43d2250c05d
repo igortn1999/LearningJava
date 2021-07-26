@@ -1,0 +1,13 @@
+package sec8_Lambdas;
+
+public class Fornecedor {
+
+	public static void main(String[] args) {
+		//não recebe nenhum parametro e retorna alguma coisa
+		
+		Supplier<List<String>> 
+			umaLista = () -> Arrays.asList("Ana", "Bia", "Lia", "Gui");
+		
+	}
+
+}

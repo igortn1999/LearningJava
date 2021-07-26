@@ -1,0 +1,17 @@
+package sec8_Lambdas;
+
+import java.util.function.Predicate;
+
+public class Predicado {
+	
+	public static void main(String[] args) {
+		
+	Predicate<ProdutoPredicado> isCaro = 
+			produto -> (produto.preco * (1-produto.desconto)) >=750;
+	
+	ProdutoPredicado prod = new ProdutoPredicado("Notebook", 3999.98, 0.15);
+	System.out.println(isCaro.test(prod));
+		
+	}
+
+}

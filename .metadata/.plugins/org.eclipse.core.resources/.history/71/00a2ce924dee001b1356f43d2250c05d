@@ -1,0 +1,9 @@
+package sec8_Lambdas;
+
+public class Fornecedor {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

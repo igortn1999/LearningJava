@@ -1,9 +1,0 @@
-package sec7_OrientacaoObjeto.composicao.desafio;
-
-public class Item {
-	
-	int quantidade;
-	
-	Produto produto1 = new Produto("", 20.00);
-
-}

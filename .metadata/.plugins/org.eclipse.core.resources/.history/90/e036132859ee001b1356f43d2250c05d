@@ -1,0 +1,18 @@
+package sec8_Lambdas.desafio_BinaryOperator;
+
+import java.util.function.BinaryOperator;
+import java.util.function.UnaryOperator;
+
+import sec8_Lambdas.ProdutoLambda;
+
+public class Desafio_BO {
+
+	public static void main(String[] args) {
+		
+		ProdutoLambda p = new ProdutoLambda("Ipad", 3235.89, 0.13);
+		
+		BiFunction<ProdutoLambda, Double> precoReal = prod -> prod.getPreco() * prod.getDesconto();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package sec8_Lambdas;
+
+import java.util.function.Predicate;
+
+public class Predicado {
+	
+	public static void main(String[] args) {
+		
+	Predicate<ProdutoPredicado> isCaro = prod -> false;
+	
+	ProdutoPredicado prod = new ProdutoPredicado();
+	System.out.println(isCaro.test());
+		
+	}
+
+}

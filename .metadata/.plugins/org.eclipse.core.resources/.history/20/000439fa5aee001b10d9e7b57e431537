@@ -1,0 +1,26 @@
+package sec8_Lambdas.desafio_BinaryOperator;
+
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+
+import sec8_Lambdas.ProdutoLambda;
+
+public class Desafio_BO {
+
+	public static void main(String[] args) {
+		
+		ProdutoLambda p = new ProdutoLambda("Ipad", 3235.89, 0.13);
+		
+		Function<ProdutoLambda, Double> precoReal = 
+				prod -> prod.getPreco() * prod.getDesconto();
+				
+		Function<ProdutoLambda, Double> 
+			imposto = prod -> prod.getPreco()>=2500? precoReal.apply(prod)*(1-0.085): precoReal.apply(prod);
+			
+		Function<Double> frete = f -> f > 3000 ? f+=100 : f+=50;
+		
+		
+		
+	}
+
+}

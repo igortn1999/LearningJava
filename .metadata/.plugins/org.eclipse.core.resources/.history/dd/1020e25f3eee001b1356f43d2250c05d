@@ -1,0 +1,13 @@
+package sec8_Lambdas;
+
+import java.util.function.Consumer;
+
+public class Consumidor {
+	
+	public static void main(String[] args) {
+		
+		Consumer<ProdutoLambda> imprimir = p -> System.out.println(p.nome); 
+		
+	}
+
+}

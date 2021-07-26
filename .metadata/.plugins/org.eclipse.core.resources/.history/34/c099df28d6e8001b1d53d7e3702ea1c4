@@ -1,9 +1,0 @@
-package sec7_OrientacaoObjeto.composicao.desafio;
-
-import java.util.ArrayList;
-
-public class Compra {
-	
-	List<Item> itens = new ArrayList<>();
-		
-}
