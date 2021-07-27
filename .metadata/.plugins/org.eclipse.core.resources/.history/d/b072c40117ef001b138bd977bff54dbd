@@ -1,0 +1,29 @@
+package sec8_Lambdas.desafio_BinaryOperator;
+
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+import sec8_Lambdas.ProdutoLambda;
+
+public class Desafio_BO {
+
+	public static void main(String[] args) {
+		
+		ProdutoLambda p = new ProdutoLambda("Ipad", 3235.89, 0.13);
+		
+		Function<ProdutoLambda, Double> precoFinal;
+		UnaryOperator<Double> imposto;
+		UnaryOperator<Double> frete;
+		UnaryOperator<Double> arredondar;
+		Function<ProdutoLambda, Double> formatar;
+		
+		String preco = 
+				precoFinal
+				.andThen(imposto)
+				.andThen(frete)
+				.andThen(arredondar).apply(p)
+				.andThen(formatar);
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package sec8_Lambdas;
+
+public class Threads {
+	
+	public static void main(String[] args) {
+		
+		Runnable t1 = new Runnable() {
+			public void run() {
+				
+			}
+		};
+		
+	}
+
+}

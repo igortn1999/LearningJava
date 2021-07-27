@@ -1,3 +1,4 @@
 1627320576264	Rename type 'ProdutoPredicado'
 1627335110210	Encapsulate field 'preco'
 1627335116088	Encapsulate field 'desconto'
+1627418650188	Move compilation unit

@@ -1,0 +1,18 @@
+package sec8_Lambdas;
+
+public class Threads {
+	
+	public static void main(String[] args) {
+		
+		Runnable trabalho1 = new Trabalho1Threads();
+		
+		
+		Runnable t1 = new Runnable() {
+			public void run() {
+				
+			}
+		};
+		
+	}
+
+}
