@@ -1,0 +1,13 @@
+package sec9_StreamAPI;
+
+import java.util.Arrays;
+
+public class ImprimindoObjetos {
+	
+	public static void main(String[] args) {
+		
+		List<String> aprovados Arrays.asList("Lu", "Gui", "Luca", "Ana");
+		
+	}
+
+}

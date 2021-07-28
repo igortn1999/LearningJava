@@ -1,0 +1,11 @@
+package sec9_StreamAPI.desafio_filter;
+
+public class Desafilter {
+
+	public static void main(String[] args) {
+		
+		JogoDaSteam j = new JogoDaSteam("Dark Souls 2", 30.00, 95, false);
+		
+	}
+
+}

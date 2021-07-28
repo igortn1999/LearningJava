@@ -1,5 +1,0 @@
-package sec7_OrientacaoObjeto.heranca;
-
-public enum Direcao {
-
-}

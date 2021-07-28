@@ -1,0 +1,13 @@
+package sec9_StreamAPI;
+
+import java.util.function.Consumer;
+
+public class Map {
+	
+	public static void main(String[] args) {
+		
+		Consumer<String> print = system.out::prnt;
+		
+	}
+
+}

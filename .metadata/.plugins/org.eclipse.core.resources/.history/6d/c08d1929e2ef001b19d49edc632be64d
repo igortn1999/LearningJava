@@ -1,0 +1,10 @@
+package sec9_StreamAPI.desafio_filter;
+
+public class JogoDaSteam {
+	
+	final String nome;
+	final double preco;
+	final double desconto;
+	final boolean isInWishList;
+
+}

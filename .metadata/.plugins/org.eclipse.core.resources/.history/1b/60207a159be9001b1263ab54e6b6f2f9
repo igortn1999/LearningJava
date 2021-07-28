@@ -1,8 +1,0 @@
-package sec7_OrientacaoObjeto.encapsulamento.casaA;
-
-public class Paulo {
-	
-	void testeAcessos() {
-		
-	}
-}
