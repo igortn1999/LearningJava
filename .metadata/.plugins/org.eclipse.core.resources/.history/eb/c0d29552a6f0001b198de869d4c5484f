@@ -1,0 +1,8 @@
+package sec9_StreamAPI;
+
+public class MediaStream {
+	
+	private double total;
+	private int quantidade;
+
+}

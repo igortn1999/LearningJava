@@ -1,0 +1,25 @@
+package sec9_StreamAPI;
+
+public class AlunoStream {
+
+		final String nome;
+		final double nota;
+		final boolean bomComportamento;
+		
+		public AlunoStream(String nome, double nota){
+			
+			this(nome, nota, true);
+		}
+		
+		public AlunoStream(String nome, double nota, boolean bc){
+			
+			this.nome = nome;
+			this.nota = nota;
+			this.bomComportamento = bc;
+		}
+		
+		@Override
+		public String toString() {
+			return nome + " tem nota " + nota;
+		}
+}

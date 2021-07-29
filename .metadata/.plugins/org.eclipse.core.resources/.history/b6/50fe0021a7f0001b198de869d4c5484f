@@ -1,0 +1,12 @@
+package sec9_StreamAPI;
+
+public class MediaStreamTeste {
+	
+	public static void main(String[] args) {
+		
+		MediaStream m1 = new MediaStream();
+		m1.adicionar(9.3);
+		m1.adicionar(6.7);
+	}
+
+}

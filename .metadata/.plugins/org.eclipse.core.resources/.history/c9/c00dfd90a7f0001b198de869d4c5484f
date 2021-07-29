@@ -1,0 +1,24 @@
+package sec9_StreamAPI;
+
+public class MediaStream {
+	
+	private double total;
+	private int quantidade;
+	
+	public MediaStream adicionar(double v) {
+		total+=v;
+		quantidade++;
+		return this;
+	}
+	
+	public double getValor() {
+		return total / quantidade;
+	}
+	
+	public Media combinar() {
+		
+		
+		return this;
+	}
+
+}
