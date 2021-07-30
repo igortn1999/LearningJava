@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.hotspot.stubs.DivisionByZeroExceptionStub"/>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
     <fullyQualifiedTypeName name="java.lang.Byte"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -31,7 +30,6 @@
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="sec8_Lambdas.desafio_BinaryOperator.Trabalho1Threads"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -45,6 +43,10 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
-    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="sec9_StreamAPI.MediaStream"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>

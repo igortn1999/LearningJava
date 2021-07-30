@@ -6,9 +6,9 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals"/>
 			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
 			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.hashcode.equals"/>
 		</list>
 		<list key="orderedProviders">
 			<item value="org.eclipse.ui.commands"/>
@@ -16,14 +16,15 @@
 			<item value="org.eclipse.ui.commands"/>
 		</list>
 		<list key="textEntries">
-			<item value="1"/>
+			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="hash"/>
+			<item value="gen"/>
 			<item value="generate cons"/>
 			<item value="ggas"/>
-			<item value="hash"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

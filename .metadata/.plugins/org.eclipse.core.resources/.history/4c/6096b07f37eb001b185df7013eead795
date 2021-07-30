@@ -1,5 +1,0 @@
-package sec7_OrientacaoObjeto.abstrato;
-
-public class Cachorro extends Animal{
-
-}

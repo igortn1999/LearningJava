@@ -1,0 +1,20 @@
+package sect10_TratamentoDeErros;
+
+public class Basico {
+	
+	public static void main(String[] args) {
+		
+		System.out.println(7/0);
+		//exceção de runtime ocorre durante a execução do programa
+		
+		
+	
+	}
+	
+	public static void imprimirAluno(AlunoErros aluno) {
+		//se alguém passar um aluno nulo, este metodo está vulnerável
+		System.out.println(aluno.nome);
+		
+	}
+
+}
