@@ -1,0 +1,20 @@
+package sect10_TratamentoDeErros;
+
+public class ChecadaVsNaoChecada {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	static void geraErro1() {
+		new RuntimeException();
+		
+	}
+	
+	static void geraErro2() {
+		
+	}
+
+}

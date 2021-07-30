@@ -1,0 +1,14 @@
+package sect10_TratamentoDeErros.personalizadaA;
+
+@SuppressWarnings("serial")
+public class NumeroNegativoException extends RuntimeException{
+	
+	private String nomeDoAtributo;
+	
+	public NumeroNegativoException(String nomeDoAtributo) {
+		
+		
+		
+	}
+
+}

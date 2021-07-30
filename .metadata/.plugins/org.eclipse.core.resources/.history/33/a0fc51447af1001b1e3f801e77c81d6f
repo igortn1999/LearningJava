@@ -1,0 +1,17 @@
+package sect10_TratamentoDeErros;
+
+public class Causa {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	static void metodoA(AlunoErros aluno) {
+		
+	}
+	
+	static void metodoB(AlunoErros aluno) {
+		
+	}
+
+}

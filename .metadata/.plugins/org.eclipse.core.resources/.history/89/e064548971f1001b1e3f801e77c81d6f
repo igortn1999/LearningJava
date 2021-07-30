@@ -1,0 +1,6 @@
+package sect10_TratamentoDeErros.personalizadaA;
+
+@SuppressWarnings("serial")
+public class StringVaziaException extends RuntimeException{
+
+}

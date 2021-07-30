@@ -1,0 +1,21 @@
+package sect10_TratamentoDeErros;
+
+public class ChecadaVsNaoChecada {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	static void geraErro1() {
+		new RuntimeException("Ocorreu um erro #1");
+		
+	}
+	
+	static void geraErro2() {
+		new Exception("Ocorreu um erro #2");
+		
+	}
+
+}

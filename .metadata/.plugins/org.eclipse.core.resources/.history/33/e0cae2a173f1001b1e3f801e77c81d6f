@@ -1,0 +1,11 @@
+package sect10_TratamentoDeErros.personalizadaA;
+
+public class TesteValidacoes {
+	
+	public static void main(String[] args) {
+	
+		
+		
+	}
+
+}

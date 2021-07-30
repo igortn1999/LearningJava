@@ -1,0 +1,13 @@
+package sect10_TratamentoDeErros.personalizadaA;
+
+public class Validar {
+	
+	private Validar() {
+		
+	}
+	
+	public static void usuario(Aluno aluno) {
+		
+	}
+
+}

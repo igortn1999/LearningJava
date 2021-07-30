@@ -2,9 +2,9 @@ package sect10_TratamentoDeErros;
 
 public class AlunoErros {
 
-		final String nome;
-		final double nota;
-		final boolean bomComportamento;
+		public final String nome;
+		public final double nota;
+		public final boolean bomComportamento;
 		
 		public AlunoErros(String nome, double nota){
 			

@@ -1,0 +1,11 @@
+package sect10_TratamentoDeErros.personalizadaA;
+
+public class Validar {
+	
+	private Validar() {
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package sect10_TratamentoDeErros;
+
+public class Causa {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	static void metodoA(AlunoErros aluno) {
+		
+		metodoB(aluno);
+		
+	}
+	
+	static void metodoB(AlunoErros aluno) {
+		
+		if(aluno==null) {
+			throw new NullPointerException("O ALUNO ESTA NULOOO");
+		}
+		
+		System.out.println(aluno.nome);
+		
+	}
+
+}
