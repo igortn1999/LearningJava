@@ -1,8 +1,0 @@
-package sec8_Lambdas;
-
-public class ProdutoPredicado {
-	
-	Final String nome;
-	final double preco;
-	final double desconto;
-}
