@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Monstro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="sec8_Lambdas.desafio_BinaryOperator.Trabalho1Threads"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
@@ -40,7 +39,6 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.UnaryOperation"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.AlunoStream"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.MediaStream"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
@@ -58,4 +56,8 @@
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaB.Validar"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
 </qualifiedTypeNameHistroy>
