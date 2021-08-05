@@ -1,9 +1,0 @@
-package sec9_StreamAPI;
-
-import java.util.function.Consumer;
-
-public class CriandoStreams {
-	
-	Consumer<String> print = System.out::print;
-
-}

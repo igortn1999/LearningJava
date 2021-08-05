@@ -1,7 +1,0 @@
-package sec9_StreamAPI;
-
-public class AlunoStream {
-
-		final String nome;
-		final double nota;
-}

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="org.graalvm.compiler.hotspot.stubs.DivisionByZeroExceptionStub"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
-    <fullyQualifiedTypeName name="java.lang.Byte"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.calcCirculo.AreaCirc"/>
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioProduto.ProdutoDesafio"/>
     <fullyQualifiedTypeName name="sec5_ClassesMetodos.desafioClasseData.ClasseData"/>
@@ -31,7 +26,6 @@
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="sec8_Lambdas.desafio_BinaryOperator.Trabalho1Threads"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
@@ -39,14 +33,12 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.UnaryOperation"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.AlunoStream"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.MediaStream"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.NumeroNegativoException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.AlunoErros"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.Validar"/>
@@ -54,10 +46,18 @@
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.NumeroForaIntervaloException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaB.StringVaziaException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaB.Validar"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.TabuleiroConsole"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.SairException"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.ExplosaoException"/>
 </qualifiedTypeNameHistroy>
