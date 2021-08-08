@@ -49,7 +49,7 @@ public class Tabuleiro {
 	private void gerarCampos() {
 		
 		for(int l = 0; l < linhas; l++) {
-			for(int c =0; c< colunas; c++){
+			for(int c = 0; c < colunas; c++){
 				campos.add(new Campo(l, c));
 			}
 		}
@@ -105,7 +105,7 @@ public class Tabuleiro {
 		StringBuilder sb = new StringBuilder();
 		
 		sb.append("    ");
-		for(int c= 0; c<linhas;c++) {
+		for(int c = 0; c<linhas;c++) {
 			
 			sb.append(" ");
 			sb.append(c);

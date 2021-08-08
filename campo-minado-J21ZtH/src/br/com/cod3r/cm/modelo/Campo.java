@@ -62,7 +62,7 @@ public class Campo {
 			}
 			
 			if(vizinhancaSegura()) {
-				vizinhos.forEach(v -> v.abrir());//hehe
+				vizinhos.forEach(v -> v.abrir());
 			}
 			return true;
 			
