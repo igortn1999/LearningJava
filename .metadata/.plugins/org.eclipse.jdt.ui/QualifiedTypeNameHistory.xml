@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="java.util.Deque"/>
-    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="sec6_ArraysColecoes.colecoes.UsuarioColecoes"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
@@ -19,7 +11,6 @@
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Carro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Monstro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="sec8_Lambdas.desafio_BinaryOperator.Trabalho1Threads"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -42,7 +33,6 @@
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaB.StringVaziaException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaB.Validar"/>
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
@@ -50,14 +40,24 @@
     <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.TabuleiroConsole"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.SairException"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.excecao.ExplosaoException"/>
     <fullyQualifiedTypeName name="sect12_Generics.CaixaObjeto"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="sect12_Generics.ListaUtil"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.gc.parallel.PSYoungGen"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.ObservadorChegadaAniversariante"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.EventoChegadaAniversariante"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.Porteiro"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
 </qualifiedTypeNameHistroy>
