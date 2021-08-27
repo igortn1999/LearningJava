@@ -1,12 +1,12 @@
 package sect12_Generics.chaveValor;
 
+import java.util.LinkedHashSet;
 import java.util.Optional;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.Set;
 
 public class Pares<C extends Number, V>{
 	
-	final SortedSet<Par<C, V>> itens = new TreeSet<>();
+	final Set<Par<C, V>> itens = new LinkedHashSet<>();
 	
 	public void adicionar(C chave, V valor) {
 		if(chave == null) return;
