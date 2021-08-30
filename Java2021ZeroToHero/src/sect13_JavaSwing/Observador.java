@@ -1,6 +1,8 @@
 package sect13_JavaSwing;
 
 import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -20,9 +22,20 @@ public class Observador {
 		JButton botao = new JButton("Clicar");
 		janela.add(botao);
 		
+		//Listener:
 		
+		//Exemplo 1:
+//		botao.addActionListener(new ActionListener() {
+//			//como Action listener é uma interface, não pode ser instanciada
+//			public void actionPerformed(ActionEvent e) {	
+//				System.out.println("Evento ocorreu!!");
+//				
+//			}
+//		});
 		
-		
+		//Exemplo 2:
+		botao.addActionListener(e -> System.out.println("Ocorreu!!!"));
+		//interface funcional aceita lambda
 		
 		janela.setVisible(true);
 		
