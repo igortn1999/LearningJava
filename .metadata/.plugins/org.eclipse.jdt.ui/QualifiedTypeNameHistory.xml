@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.List"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Heroi"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.composicao.TestaCarro"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Jogo"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Ferrari"/>
     <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Carro"/>
@@ -53,11 +50,14 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.Porteiro"/>
     <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.TelaPrincipal"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.PainelTabuleiro"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
 </qualifiedTypeNameHistroy>

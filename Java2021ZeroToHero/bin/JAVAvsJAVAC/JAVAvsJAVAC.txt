@@ -1,0 +1,13 @@
+O programa teste.java foi escrito na mão. 
+O Javac será usado para transformar esse arquivo em Bytecode (.java -> .class): $javac Teste.java
+
+Agora há dois arquivos: Teste.java, que já existia, que é o código puro em java; E Teste.class, que é o bytecode a ser lido pela JVM. 
+a diferença entre os dois pode ser observada usando cat nos dois.
+
+Depois que o arquivo .class foi criado, é só chamar a JVM para que ela execute o código. Para fazer isso basta utilizar: 
+
+    $java Teste.class
+
+    ou, apenas:
+
+    $java Teste

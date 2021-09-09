@@ -1,0 +1,48 @@
+Anatomia de uma classe: 
+    
+        -Convemção: primeira letra maiuscula, camel case.
+
+        x class NomeDaClasse y{
+            
+            corpo da classe: atributos, comportamentos...
+
+            Atributos são dados; (int, boolean, double...) 
+
+            Comportamentos são métodos; (
+
+        }
+
+Objetos podem representar objetos do mundo real mesmo, que têm atributos, comportamentos e relações consigo mesmos e com outros objetos. 
+Ex: um carro tem varias portas, cada uma abre e fecha etc...
+
+    Objetos são criados a partir de uma classe, esses objetos representam os dados. 
+
+    Objeto é o dado criado a partir da classe
+
+    Objeto = Instaância criada a partir de uma determinada Estrutura de Dados (Classe)
+    
+    Para acessar membros de um objeto: "objeto.membro".
+
+Classe: a ideia da classe é ser um "agrupador". Dentro de uma unica estrutura, agrupar atributos e comportamentos. 
+
+    Uma classe define um tipo. Um tipo é uma estrutura de dados. ( Ex: tipo inteiro Integer)  
+
+    É preciso construir tipos específicos para satisfazer os objetivos do seu projeto.
+
+    Classe representa uma abstração (simplificação) de um "objeto real".
+
+    As classes funcionam como moldes para os objetos.
+
+    MEMBROS DE UMA CLASSE: 
+
+        -Aributos: Variáveis / Constantes;
+
+        -Construtor(es);
+
+        -Métodos;
+
+        -Pode haver classes dentro da classe.
+
+* Um objeto é criado a partir do Contrutor de uma Classe.
+
+* Existe uma diferença entre Atributos/Métods/etc de Classe e de Objeto. A palavra "static" indica que um atributo pertence à classe, e não ao objeto.
