@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Jogo"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Ferrari"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.desafioHeranca.Carro"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.heranca.Monstro"/>
-    <fullyQualifiedTypeName name="sec7_OrientacaoObjeto.polimorfismo.ComidaPolimorfa"/>
-    <fullyQualifiedTypeName name="sec8_Lambdas.desafio_BinaryOperator.Trabalho1Threads"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
-    <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.UnaryOperation"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.AlunoStream"/>
     <fullyQualifiedTypeName name="sec9_StreamAPI.MediaStream"/>
@@ -49,15 +38,26 @@
     <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.EventoChegadaAniversariante"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="sect13_JavaSwing.padroes.observer.Porteiro"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.TelaPrincipal"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.Tabuleiro"/>
     <fullyQualifiedTypeName name="br.com.cod3r.cm.visao.PainelTabuleiro"/>
     <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoObservador"/>
+    <fullyQualifiedTypeName name="javax.swing.event.MouseInputListener"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+    <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.cm.modelo.CampoEvento"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingUtilities"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.calc.visao.teclado"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.calc.visao.Display"/>
+    <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+    <fullyQualifiedTypeName name="java.awt.Dimension"/>
 </qualifiedTypeNameHistroy>
