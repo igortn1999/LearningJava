@@ -12,7 +12,11 @@ public class Calculadora extends JFrame{
 		
 		organizarLayout();
 		
-		setSize(232, 322);
+		setSize(234, 324);
+		
+//		setUndecorated(true);//faz com que a barra superior da aplicação suma,
+		//para que vc possa construir a sua do seu jeito 
+		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
 		setVisible(true);
