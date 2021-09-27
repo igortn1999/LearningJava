@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.function.Function"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.NumeroNegativoException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.AlunoErros"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria.TipoComando"/>
 </qualifiedTypeNameHistroy>
