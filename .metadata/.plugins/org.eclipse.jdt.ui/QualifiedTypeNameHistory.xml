@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.NumeroNegativoException"/>
-    <fullyQualifiedTypeName name="sect10_TratamentoDeErros.AlunoErros"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.Validar"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.StringVaziaException"/>
     <fullyQualifiedTypeName name="sect10_TratamentoDeErros.personalizadaA.NumeroForaIntervaloException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria.TipoComando"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>
