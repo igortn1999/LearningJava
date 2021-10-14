@@ -1,1 +1,7 @@
 /.metadata/
+.DS_Store
+.metadata
+
+#Bibliotecas não precisam ir para o Git
+#bibliotecas utilizadas: Hibernate, Driver MySQL
+/Exercicios_JPA_J21ZtH/libs/

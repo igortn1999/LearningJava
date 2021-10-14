@@ -10,7 +10,7 @@ public class NovoUsuario {
 	
 	public static void main(String[] args) {
 		
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Exercicios-JPA-J21ZtH");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Exercicios_JPA_J21ZtH");
 		EntityManager em = emf.createEntityManager();
 		
 		Usuario novoUsuario = new Usuario("Djalma", "Djalma@lanche.com.br");
