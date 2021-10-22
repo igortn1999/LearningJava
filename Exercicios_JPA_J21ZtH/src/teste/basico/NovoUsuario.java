@@ -13,9 +13,14 @@ public class NovoUsuario {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("Exercicios_JPA_J21ZtH");
 		EntityManager em = emf.createEntityManager();
 		
-		Usuario novoUsuario = new Usuario("Djalma", "Djalma@lanche.com.br");
-		novoUsuario.setId(1L);
-		em.persist(novoUsuario);
+		Usuario novoUsuario = new Usuario("teste", "teste@lanche.com.br");
+//		novoUsuario.setId(1L);//Depois de setar o ID como auto-incrementado, esta linha não é necessária
+		
+		em.getTransaction().begin();//iniciar a transação para validar a persistência
+		em.persist(novoUsuario);//a persistência só é efetiva num contexto de transação
+		em.getTransaction().commit();//efetivar transação
+		
+		System.out.println("O ID gerado foi: "+ novoUsuario.getId());
 		
 		em.close();
 		emf.close();

@@ -1,6 +1,8 @@
 package modelo.basico;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 //Anotação @Entity (javax.persistence). Especifica que 
@@ -11,11 +13,16 @@ import javax.persistence.Id;
 public class Usuario {
 	
 	@Id //especifica que o atributo id será a PK 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Indica que esta PK é auto-incrementada, a estrategia evidencia que esta coluna será usada com identidade
 	private long id;
 	//por padrão, qualquer atributo que pertence a uma classe será mapeado para uma coluna
 	private String nome;
 	private String email;
 	//Se houver algum atributo que não deve ir para o DB, usar a anotação @Transient
+	
+	public Usuario() {
+		this(null, null);
+	}
 	
 	public Usuario(String nome, String email) {
 		super();
