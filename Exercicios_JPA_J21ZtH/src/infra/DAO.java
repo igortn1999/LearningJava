@@ -1,0 +1,85 @@
+package infra;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
+
+public class DAO<E>{//Data Access Object
+	
+	private static EntityManagerFactory emf;
+	private EntityManager em;
+	private Class<E> classe;
+	
+	//bloco estático. Será chamado apenas uma única vez quando a classe for carregada pelo Java
+	static {
+		//um atributo estático deve ser inicializado ou diretamente na declaração ou em um bloco estático
+		//aqui pode ser criada uma lógica de inicialização
+		
+		//é interessante fazer um try catch aqui, pois se houver um erro na inicialização,
+		//esse erro pode repercutir para a aplicação inteira
+		try {
+			emf = Persistence.createEntityManagerFactory("Exercicios_JPA_J21ZtH");
+												//unidade de persistencia é passada como parametro
+		}catch(Exception e) {
+			//aqui é interessante fazer um log do erro
+			//log4j
+		}
+	}
+	
+	public DAO() {
+		this(null);
+	}
+	
+	public DAO(Class<E> classe){
+		this.classe = classe;
+		em = emf.createEntityManager();//incializando o Entity Manager na construção do objeto
+	}
+	
+	public DAO abrirTransacao() {
+		em.getTransaction().begin();
+		return this;
+		//ao retornar a propria classe, você permite que outros métodos da classe sejam
+		//chamados a partir do retorno deste método
+	}
+	
+	public DAO fecharTransacao() {
+		em.getTransaction().commit();
+		return this;
+	}
+	
+	public DAO incluir(E entidade) {
+		em.persist(entidade);
+		return this;
+	}
+	
+	public DAO incluirAtomico(E entidade) {
+		this.abrirTransacao().incluir(entidade).fecharTransacao();
+		return this;
+	}
+	
+	public List<E> obterTodos(){
+		return obterTodos(10, 0);
+	}
+	
+	public List<E> obterTodos(int qtde, int deslocamento){
+		//qtde  = quantidade de resultados na pesquisa (limit)
+		//deslocamento = quantos ele deve pular pra começar a pegar os resultados (offset)
+		if(classe == null) {
+			throw new UnsupportedOperationException("Classe nula");
+		}
+		String jpql = "SELECT e FROM " + classe.getName() + "e";
+		
+		TypedQuery<E> query = em.createQuery(jpql, classe);
+		query.setMaxResults(qtde);
+		query.setFirstResult(deslocamento);
+		return query.getResultList();
+	}
+	
+	public void fechar() {
+		em.close();
+		//não fecha o EMF porque ele pode ser usado em outro DAO
+	}
+}
