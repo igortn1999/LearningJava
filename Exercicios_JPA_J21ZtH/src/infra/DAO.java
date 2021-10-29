@@ -56,8 +56,7 @@ public class DAO<E>{//Data Access Object
 	}
 	
 	public DAO incluirAtomico(E entidade) {
-		this.abrirTransacao().incluir(entidade).fecharTransacao();
-		return this;
+		return this.abrirTransacao().incluir(entidade).fecharTransacao();
 	}
 	
 	public List<E> obterTodos(){
@@ -70,7 +69,7 @@ public class DAO<E>{//Data Access Object
 		if(classe == null) {
 			throw new UnsupportedOperationException("Classe nula");
 		}
-		String jpql = "SELECT e FROM " + classe.getName() + "e";
+		String jpql = "select e from " + classe.getName() + " e";
 		
 		TypedQuery<E> query = em.createQuery(jpql, classe);
 		query.setMaxResults(qtde);
