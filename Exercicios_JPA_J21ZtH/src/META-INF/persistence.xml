@@ -8,6 +8,8 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>modelo.basico.Usuario</class>
 		<class>modelo.basico.Produto</class>
+		<class>modelo.umParaUm.Cliente</class>
+		<class>modelo.umParaUm.Assento</class>
 		
 		<properties>
 			<!-- Conexão JDBC com banco de dados -->
