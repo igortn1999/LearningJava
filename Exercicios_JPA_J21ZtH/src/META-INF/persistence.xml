@@ -10,6 +10,8 @@
 		<class>modelo.basico.Produto</class>
 		<class>modelo.umParaUm.Cliente</class>
 		<class>modelo.umParaUm.Assento</class>
+		<class>modelo.umParaMuitos.Pedido</class>
+		<class>modelo.umParaMuitos.ItemPedido</class>
 		
 		<properties>
 			<!-- Conexão JDBC com banco de dados -->
