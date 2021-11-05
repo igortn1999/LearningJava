@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -15,6 +16,14 @@ public class Assento {
 	private long id;
 	
 	private String nome;
+	
+	@OneToOne(mappedBy = "assento")
+	//mappedBy informa que quem realmente mapeia essa relação é o atributo assento do Cliente
+	//se não usar mappedBy, um atributo será criado dentro de Assento, chamado Cliente_id o que criará uma coluna no DB
+	//Isso não pode ocorrer pois não existe relação bidrecional em Banco de Dados, pois pode gerar inconsistencia de dados
+	//O atributo mappedBy expecifica que a relação bidirecional já foi definida em outro atributo
+	private Cliente cliente;//Criando relação bidirecional
+	
 	
 	public Assento() {
 		
@@ -39,6 +48,15 @@ public class Assento {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	
 	
 	
 }
