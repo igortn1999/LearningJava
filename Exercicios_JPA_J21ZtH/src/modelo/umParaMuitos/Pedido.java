@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -20,7 +21,9 @@ public class Pedido {
 	@Column(nullable = false)
 	private Date data;
 	
-	@OneToMany(mappedBy = "pedido")//one to many informa que cada item nessa lista está relacionado a este Pedido
+	@OneToMany(mappedBy = "pedido", fetch = FetchType.LAZY)
+	//one to many informa que cada item nessa lista está relacionado a este Pedido
+	//FetchType LAZY é o valor padrão (... ToMany -> LAZY)
 	//mapped by informa qual é a coluna que representa a relação entre os itens e o pedido
 	//o atributo mappadBy está sempre do lado da relação que não contém a FK em uma das colunas de sua tabela
 	private List<ItemPedido> itens;

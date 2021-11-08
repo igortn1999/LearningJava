@@ -2,6 +2,7 @@ package modelo.umParaMuitos;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -19,7 +20,7 @@ public class ItemPedido {
 	@ManyToOne //indica que há muitos ItemPedido para um Pedido
 	private Pedido pedido;
 	
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.EAGER) //esse é o valor default (...ToOne -> EAGER)
 	private Produto produto;
 	
 	@Column(nullable = false)
