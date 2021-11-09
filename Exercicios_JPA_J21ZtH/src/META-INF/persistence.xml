@@ -12,6 +12,11 @@
 		<class>modelo.umParaUm.Assento</class>
 		<class>modelo.umParaMuitos.Pedido</class>
 		<class>modelo.umParaMuitos.ItemPedido</class>
+		<class>modelo.muitosParaMuitos.Tio</class>
+		<class>modelo.muitosParaMuitos.Sobrinho</class>
+		<class>modelo.muitosParaMuitos.Filme</class>
+		<class>modelo.muitosParaMuitos.Ator</class>
+		
 		
 		<properties>
 			<!-- Conexão JDBC com banco de dados -->
