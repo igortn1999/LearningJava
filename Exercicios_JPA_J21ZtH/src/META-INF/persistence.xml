@@ -19,6 +19,9 @@
 		<class>modelo.muitosParaMuitos.Sobrinho</class>
 		<class>modelo.muitosParaMuitos.Filme</class>
 		<class>modelo.muitosParaMuitos.Ator</class>
+		<class>modelo.composicao.Endereco</class>
+		<class>modelo.composicao.Fornecedor</class>
+		<class>modelo.composicao.Funcionario</class>
 		
 		
 		<properties>
