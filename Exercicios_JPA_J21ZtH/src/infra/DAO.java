@@ -81,6 +81,17 @@ public class DAO<E>{//Data Access Object
 		return query.getResultList();
 	}
 	
+	//Criando um método que faz consulta a partir de named query
+	public List<E> consultar(String nomeConsulta, Object... params){
+		TypedQuery<E> query = em.createNamedQuery(nomeConsulta, classe);
+		
+		//o for avança de dois em dois porque se espera receber sempre pares de parametro e valor
+		for(int i = 0; i < params.length; i+=2) {
+			query.setParameter(params[i].toString(), params[i+1]);
+		}
+		return query.getResultList();
+	}
+	
 	public void fechar() {
 		em.close();
 		//não fecha o EMF porque ele pode ser usado em outro DAO

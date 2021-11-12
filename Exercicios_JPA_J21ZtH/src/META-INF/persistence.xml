@@ -6,6 +6,9 @@
 	
 	<persistence-unit name="Exercicios_JPA_J21ZtH">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+		<mapping-file>META-INF/consultas.xml</mapping-file>
+		
 		<class>modelo.basico.Usuario</class>
 		<class>modelo.basico.Produto</class>
 		<class>modelo.umParaUm.Cliente</class>

@@ -9,10 +9,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "atores")
+//@NamedQueries(@NamedQuery(consulta aqui))//Seria possivel criar uma Named Query aqui desta forma
+//Isso não será feito porque deixa a classe muito poluida, com varias consultas dentro dela.
+//Em vez disso, será criado um arquivo .xml para fazer as Named Queries dentro de META-INF
 public class Ator {
 	
 	@Id

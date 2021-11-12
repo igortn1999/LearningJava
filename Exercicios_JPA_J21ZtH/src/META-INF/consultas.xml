@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+   		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm
+        http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd" version="2.2">
+        
+        <named-query name="filmeNotasMaiorQue"><!-- Nome da Query -->
+        	<query><!-- A consulta em si -->
+        		select distinct f from Filme f <!-- Aqui é o nome da Entidade Filme, não da tabela filme -->
+        		join fetch f.atores <!-- Especifica que a consulta deve puxar também os atores (assim não é necessário colocar a consulta de atores como EAGER na classe )-->
+        		where f.nota > :nota <!-- :nota é um parametro para a consulta -->
+        	</query>
+        </named-query>
+        
+</entity-mappings>
