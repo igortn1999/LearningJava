@@ -92,6 +92,11 @@ public class DAO<E>{//Data Access Object
 		return query.getResultList();
 	}
 	
+	public E consultarUm(String nomeConsulta, Object... params){
+		List<E> lista = consultar(nomeConsulta, params);
+		return lista.isEmpty() ? null : lista.get(0);
+	}
+	
 	public void fechar() {
 		em.close();
 		//não fecha o EMF porque ele pode ser usado em outro DAO

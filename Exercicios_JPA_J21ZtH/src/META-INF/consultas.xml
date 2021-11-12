@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <entity-mappings xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
-   		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm
-        http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd" version="2.2">
+   		http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd" version="2.2">
         
         <named-query name="filmeNotasMaiorQue"><!-- Nome da Query -->
-        	<query><!-- A consulta em si -->
+        	<query><!-- A consulta em si (em JPQL)-->
         		select distinct f from Filme f <!-- Aqui é o nome da Entidade Filme, não da tabela filme -->
         		join fetch f.atores <!-- Especifica que a consulta deve puxar também os atores (assim não é necessário colocar a consulta de atores como EAGER na classe )-->
         		where f.nota > :nota <!-- :nota é um parametro para a consulta -->
         	</query>
         </named-query>
+        
+        <named-native-query name="obterMediaGeralFilmes" result-set-mapping="notaFilmeMap"><!--Nome da querry e o "mapeador" que foi definido-->
+        	<query><!-- Consulta em SQL -->
+        		SELECT AVG(nota) AS media FROM filmes
+        	</query>
+        </named-native-query>
+        
+        <sql-result-set-mapping name="notaFilmeMap"> <!--Um objeto será instanciado a partir dessa query-->
+        	<constructor-result target-class="modelo.consulta.NotaFilme"><!--Classe que será utilizada para instanciar o objeto-->
+        		<column name="media" class="java.lang.Double" /> <!--Espera-se que a classe tenha um construtor que receba um double como parametro-->
+        	</constructor-result>
+        </sql-result-set-mapping>
         
 </entity-mappings>
