@@ -15,6 +15,9 @@ public class Teste {
 		Calculadora calc = new Calculadora();
 		System.out.println(calc.soma(1, 2, 3, 4));
 		
+		System.out.println(calc.getLoggerClass());
+		//precisamos adicionar app-logging ao Build path -> Module path
+		
 //		OperacoesAritmeticas op = null;//Isso não é possível porque esse pacote não foi exportado nem requerido
 	}
 	
