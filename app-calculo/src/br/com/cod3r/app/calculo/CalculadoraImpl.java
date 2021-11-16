@@ -2,11 +2,13 @@ package br.com.cod3r.app.calculo;
 
 import java.util.Date;
 
+import br.com.cod3r.app.Calculadora;
 import br.com.cod3r.app.calculo.interno.OperacoesAritmeticas;
 import br.com.cod3r.app.logging.Logger;
 
 //classe com a intenção de ser visivel para qualquer um
-public class Calculadora {
+public class CalculadoraImpl implements Calculadora{
+	//fizemos que a calculadora Impl implementasse a interface calculadora
 	
 	private OperacoesAritmeticas opAritmeticas = new OperacoesAritmeticas();
 
