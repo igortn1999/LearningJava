@@ -32,17 +32,23 @@ public class Contador extends Application{
 		boxBotoes.getChildren().add(botaoDecremento);
 		boxBotoes.getChildren().add(botaoIncremento);
 		
-		//Criando o box principal
-		VBox boxPrincipal = new VBox();
-		boxPrincipal.setAlignment(Pos.CENTER);//centralizando itens no box principal
-		boxPrincipal.setSpacing(10);//adicionando espaçamento entre os intens do box
-		//Adicionando os labels ao box principal
-		boxPrincipal.getChildren().add(labelTitulo);
-		boxPrincipal.getChildren().add(labelNumero);
-		boxPrincipal.getChildren().add(boxBotoes);//Adicionando o box dos botões ao box principal
+		//Criando o box conteudo
+		VBox boxConteudo = new VBox();
+		boxConteudo.getStyleClass().add("conteudo");//nome da classe CSS
+		boxConteudo.setAlignment(Pos.CENTER);//centralizando itens no box principal
+		boxConteudo.setSpacing(10);//adicionando espaçamento entre os intens do box
+		//Adicionando os labels ao box de conteudo
+		boxConteudo.getChildren().add(labelTitulo);
+		boxConteudo.getChildren().add(labelNumero);
+		boxConteudo.getChildren().add(boxBotoes);//Adicionando o box dos botões ao box de conteudo
+		
+		//Para fazer a personalização de estilo, foi criado dentro do pacote o arquivo Contador.css
+		//pegando o caminho do arquivo css (a raiz nesse caso é diretório atual da classe)
+		String caminhoCss = getClass().getResource("/basico/Contador.css").toExternalForm();
 		
 		//Criando a cena principal da aplicação
-		Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
+		Scene cenaPrincipal = new Scene(boxConteudo, 400, 400);
+		cenaPrincipal.getStylesheets().add(caminhoCss);//aplicando o CSS
 		primaryStage.setScene(cenaPrincipal);//setando a cena principal como a cena a ser mostrada
 		primaryStage.show();//mostrar a aplicação
 		

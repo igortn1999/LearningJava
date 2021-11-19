@@ -1,0 +1,4 @@
+.conteudo{/*classe CSS*/
+/*esse nome que será usado pelo componente da aplicação que aplicará esse estilo*/
+	-fx-background-color: red;/*propriedade de background que o javaFx usa*/
+}
