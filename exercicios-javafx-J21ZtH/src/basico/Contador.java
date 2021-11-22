@@ -18,11 +18,15 @@ public class Contador extends Application{
 	public void start(Stage primaryStage) throws Exception {
 		//Criando labels
 		Label labelTitulo = new Label("Contador");
+		labelTitulo.getStyleClass().add("titulo");//adicionando o estilo usando a classe CSS
 		Label labelNumero = new Label("0");
+		labelNumero.getStyleClass().add("numero");//adicionando o estilo usando a classe CSS
 		
 		//Criando botões
 		Button botaoDecremento = new Button("-");
+		botaoDecremento.getStyleClass().add("botoes");//adicionando o estilo usando a classe CSS
 		Button botaoIncremento = new Button("+");
+		botaoIncremento.getStyleClass().add("botoes");//adicionando o estilo usando a classe CSS
 		
 		//Criando um box horizontal para abrigar os botões um do lado do outro
 		HBox boxBotoes = new HBox();
@@ -45,10 +49,11 @@ public class Contador extends Application{
 		//Para fazer a personalização de estilo, foi criado dentro do pacote o arquivo Contador.css
 		//pegando o caminho do arquivo css (a raiz nesse caso é diretório atual da classe)
 		String caminhoCss = getClass().getResource("/basico/Contador.css").toExternalForm();
-		
 		//Criando a cena principal da aplicação
 		Scene cenaPrincipal = new Scene(boxConteudo, 400, 400);
 		cenaPrincipal.getStylesheets().add(caminhoCss);//aplicando o CSS
+		//importando a fonte, pega a partir do google fonts
+		cenaPrincipal.getStylesheets().add("https://fonts.googleapis.com/css2?family=Oswald");
 		primaryStage.setScene(cenaPrincipal);//setando a cena principal como a cena a ser mostrada
 		primaryStage.show();//mostrar a aplicação
 		
@@ -56,10 +61,12 @@ public class Contador extends Application{
 		botaoDecremento.setOnAction(e -> {
 			contador--;
 			labelNumero.setText(Integer.toString(contador));
+			atualizarCor(labelNumero);
 		});
 		botaoIncremento.setOnAction(e -> {
 			contador++;
 			labelNumero.setText(Integer.toString(contador));
+			atualizarCor(labelNumero);
 		});
 		
 		
@@ -68,6 +75,18 @@ public class Contador extends Application{
 	
 	public static void main(String[] args) {
 		launch(args);//chamar a aplicação
+	}
+	
+	public void atualizarCor(Label labelNumero){
+		
+		labelNumero.getStyleClass().remove("verde");
+		labelNumero.getStyleClass().remove("vermelho");
+		
+		if(this.contador > 0) {
+			labelNumero.getStyleClass().add("verde");
+		}else if(this.contador < 0) {
+			labelNumero.getStyleClass().add("vermelho");
+		}
 	}
 
 }

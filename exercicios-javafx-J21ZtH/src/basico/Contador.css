@@ -1,4 +1,45 @@
 .conteudo{/*classe CSS*/
 /*esse nome que será usado pelo componente da aplicação que aplicará esse estilo*/
-	-fx-background-color: red;/*propriedade de background que o javaFx usa*/
+	/*propriedades do JavaFX têm -fx no começo*/
+	-fx-background-color: #000;/*propriedade de background que o javaFx usa*/
+	
+	/*acessar o google fonts a pegar o link CSS da fonte escolhida, importar ela na classe para poder usar aqui*/
+	-fx-font-family: Oswald; 
 }
+
+.titulo{
+	-fx-text-fill: #48b2ee;/*setando cor dos caracteres*/
+	-fx-font-size: 36px;/*setando tamanho da fonte*/
+}
+
+.numero{
+	
+	-fx-text-fill: #EEE;
+	-fx-font-size: 28px;
+}
+
+.botoes{/*classe de estilo que será aplicada para os dois botões*/
+	-fx-background-color: #fff;
+	-fx-text-fill: #48b2ee;
+	-fx-font-size: 24px;
+	-fx-min-width: 60px;/*tamanho (minimo) da largura do botão*/
+	-fx-min-height: 60px;/*tamanho (minimo) da altura do botão*/
+	-fx-background-radius: 30px;/*Deixando o botão arredondado (Em CSS Web seria border-radius)*/
+}
+
+/*Criando classes para estilos condicionais*/
+
+.verde{/*caso o numero seja positivo*/
+	-fx-text-fill: #4bdb82;
+}
+
+.vermelho{/*caso o numero seja negativo*/
+	-fx-text-fill: #ee4139;
+}
+
+
+
+
+
+
+
