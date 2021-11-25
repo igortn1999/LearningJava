@@ -1,6 +1,7 @@
 package layout;
 
 import javafx.application.Application;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -33,7 +34,12 @@ public class AppLayout extends Application{
 		primaryStage.setScene(principal);
 		*/
 		
-		Scene principal = new Scene(new TesteAnchorPane(), 800, 600);
+		Parent raiz = null;
+		//para alternar qual layout testar, basta descomentar o layout a ser testado
+//		raiz = new TesteAnchorPane();
+		raiz = new TesteBorderPane();
+		
+		Scene principal = new Scene(raiz, 800, 600);
 		
 		primaryStage.setScene(principal);
 		primaryStage.setTitle("Gerenciadores de Layout");
