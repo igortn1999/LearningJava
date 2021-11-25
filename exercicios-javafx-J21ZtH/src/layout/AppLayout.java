@@ -37,7 +37,8 @@ public class AppLayout extends Application{
 		Parent raiz = null;
 		//para alternar qual layout testar, basta descomentar o layout a ser testado
 //		raiz = new TesteAnchorPane();
-		raiz = new TesteBorderPane();
+//		raiz = new TesteBorderPane();
+		raiz = new TesteFlowPane();
 		
 		Scene principal = new Scene(raiz, 800, 600);
 		
