@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+ 
+<GridPane xmlns:fx="http://javafx.com/fxml/1"
+		hgap="15"
+		vgap="15"
+		fx:controller="fxml.LoginControlador"
+		styleClass="login"
+		><!-- Indicando que será a classe controladora e especficando a classe CSS (do aqruivo CSS) -->
+		
+	<!-- definindo padding da aplicação, para que os elementos não fiquem colados nas bordas -->
+	<padding>
+		<Insets left="40" right="40" top="40" bottom="40"/><!-- Padding recebe um objeto do tipo Insets -->
+	</padding>
+	
+	<!-- Criando contraints de coluna -->
+	<columnConstraints><!-- Lista de Constraints (funciona como uma lista de ColumnContraints)-->
+		<!-- Instancias de ColumnConstraints -->
+		<ColumnConstraints minWidth="60" prefWidth="60" halignment="right" /><!-- primeira coluna -->
+		<ColumnConstraints prefWidth="200" maxWidth="Infinity" hgrow="ALWAYS"/> <!-- Segunda Coluna -->
+	</columnConstraints>
+	
+	<!-- Label isolado e centralizado de boas vindas, que começa na posição 0,0 e ocupa 2 colunas -->
+	<Label text="Seja Bem-vindo!"
+			GridPane.ColumnIndex="0"
+			GridPane.RowIndex="0"
+			GridPane.ColumnSpan="2"
+			GridPane.halignment="CENTER"
+			styleClass="login-titulo"><!-- Aplicando CSS -->
+			
+		<GridPane.margin><!-- Aplicando uma margem do GridPane na Label -->
+			<Insets top="20" bottom="20"/>
+		</GridPane.margin>
+			
+	</Label>
+	<!-- Campo de E-Mail -->
+	<Label text="E-Mail:"
+			GridPane.ColumnIndex="0"
+			GridPane.RowIndex="1"
+			styleClass="login-form-label"></Label>
+	<TextField GridPane.ColumnIndex="1" GridPane.RowIndex="1" 
+				fx:id="campoEmail"><!-- Associando ID ao text field, para que possa ser acessado a partir 
+										da classe controladora -->
+		
+	</TextField>
+			
+	<!-- Campo de Senha -->
+	<Label text="Senha:"
+			GridPane.ColumnIndex="0"
+			GridPane.RowIndex="2"
+			styleClass="login-form-label"></Label>
+	<PasswordField GridPane.ColumnIndex="1" GridPane.RowIndex="2"
+					fx:id="campoSenha"> <!-- Id do campo senha -->
+		
+	</PasswordField>
+	
+	<!-- Botão para entrar -->
+	<Button text="Entrar"
+			GridPane.ColumnIndex="0"
+			GridPane.RowIndex="3"
+			onAction="#entrar"
+			GridPane.ColumnSpan="2"
+			GridPane.halignment="CENTER"
+			styleClass="login-form-botao"><!-- # identifica que é a chamada de um método (que está dentro do controlador)-->
+		
+		<GridPane.margin><!-- Aplicando uma margem do GridPane na Label -->
+			<Insets top="20" bottom="20"/>
+		</GridPane.margin>
+		
+	</Button>
+	
+</GridPane>

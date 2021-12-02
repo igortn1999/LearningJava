@@ -5,3 +5,4 @@
 #Bibliotecas não precisam ir para o Git
 #bibliotecas utilizadas: Hibernate, Driver MySQL
 /Exercicios_JPA_J21ZtH/libs/*
+/exercicios-javafx-J21ZtH/lib/*
