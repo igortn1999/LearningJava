@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- pom.xml é o arquivo de dependencias gerado automaticamente pelo Maven.
+Maven é um gerenciador de dependencias que busca de um repositorio na nuvem os arquivos (em sua maioria arquivos
+.jar nesse caso) necessários para a aplicação funcionar. 
+ 
+Este projeto Maven foi criado para ser utilizado pelo spring boot, 
+a partir do site https://start.spring.io/ que te dá as configurações iniciais e um zip com tudo o que é neces-
+sário.
+
+Para importar um projeto Maven no eclipse, basta clicar em import e selecionar Maven, 
+depois selecionar a pasta onde o projeto está e o eclipse identificará o projeto Maven-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.6.1</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>br.com.cod3r</groupId>
+	<artifactId>exercicioSpringBootJ21ZTH</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>exercicioSpringBootJ21ZTH</name>
+	<description>Exercícios Spring Boot Java 2021 Zero To Hero</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

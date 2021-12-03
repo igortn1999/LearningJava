@@ -1,0 +1,5 @@
+O sistema de modulos foi implementado no JDK 9
+
+module-info.java explicita as dependências e o que será aberto para o mundo dentro de um pacote
+
+Os modulos são como aglomerados de pacotes que podem interagir entre sí, sem que precisem se tornar públicos
