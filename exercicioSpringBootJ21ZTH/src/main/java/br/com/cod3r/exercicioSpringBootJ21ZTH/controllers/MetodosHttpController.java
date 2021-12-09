@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/metodos")
 public class MetodosHttpController {
 	
+	//Para testar requisições HTTP, pode-se usar a ferramenta Postman, ou Insomnia que é open source e gratuita
+	
 	@GetMapping
 	public String get() {
 		return "Requisição GET";
