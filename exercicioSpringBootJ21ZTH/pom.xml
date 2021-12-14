@@ -31,7 +31,23 @@ depois selecionar a pasta onde o projeto está e o eclipse identificará o proje
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		
+		<!-- Adicionando dependencia com JPA para poder usar DB na aplicação SpringBoot -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		
+		<!-- Dependencia do Driver do mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		
+		<!--Depois de adicionar as dependencias de Banco de Dados,
+		precisa fazer algumas alterações no application.properties 
+		referentes à conexão com o DB -->
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
