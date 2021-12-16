@@ -54,11 +54,20 @@ depois selecionar a pasta onde o projeto está e o eclipse identificará o proje
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Fix para a annotation @NotBlank não funcionar -->
+		<dependency>
+		    <groupId>javax.validation</groupId>
+		    <artifactId>validation-api</artifactId>
+		    <version>2.0.1.Final</version>
+		 </dependency>
+		
 	</dependencies>
 
 	<build>

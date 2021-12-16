@@ -1,5 +1,7 @@
 package br.com.cod3r.exercicioSpringBootJ21ZTH.controllers;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,12 +29,13 @@ public class ProdutoController {
 	*/
 	
 	@PostMapping
-	public @ResponseBody Produto novoProduto(@RequestParam String nome,
-											@RequestParam double preco,
-											@RequestParam double desconto) {
-		//@ResponseBody indica que o Produto faz parte do corpo da resposta 
-		Produto produto = new Produto(nome, preco, desconto);
+	public @ResponseBody Produto novoProduto(@Valid Produto produto) {
+		//@ResponseBody indica que o Produto faz parte do corpo da resposta
+		//@Valid indica que o produto tem que atender às validações definidas dentro dele
 		produtoRepository.save(produto);
 		return produto;
+		/*ao invés de passar cada atributo do como parametro para o método, o Java Spring é esperto o suficiente
+		para usar o produto em si e utilizar os parametros do request para criar a instancia desse produto
+		*/
 	}
 }
