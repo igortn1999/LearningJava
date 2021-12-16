@@ -1,8 +1,12 @@
 package br.com.cod3r.exercicioSpringBootJ21ZTH.controllers;
 
+import java.util.Optional;
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -38,4 +42,17 @@ public class ProdutoController {
 		para usar o produto em si e utilizar os parametros do request para criar a instancia desse produto
 		*/
 	}
+	
+	@GetMapping//se usar o metodo get na URL /api/produtos, todos os produtos serão exibidos
+	public Iterable<Produto> ObterProdutos() {
+		return produtoRepository.findAll();//retorna todos os produtos. Não é uma boa ideia para sistemas enormes
+	}
+	
+	@GetMapping(path = "/{id}")
+	public Optional<Produto> obterProdutoPorID(@PathVariable int id){
+		//pode retornar um produto mas pode não retornar nada também, por isso o método é Optional
+		return produtoRepository.findById(id);
+	}
+	
+	
 }
