@@ -5,6 +5,8 @@ import java.util.Optional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,8 +50,15 @@ public class ProdutoController {
 	}
 	
 	@GetMapping//se usar o metodo get na URL /api/produtos, todos os produtos serão exibidos
-	public Iterable<Produto> ObterProdutos() {
+	public Iterable<Produto> obterProdutos() {
 		return produtoRepository.findAll();//retorna todos os produtos. Não é uma boa ideia para sistemas enormes
+	}
+	
+	@GetMapping(path = "pagina/{numeroPagina}")
+	public Iterable<Produto> obterProdutosPorPagina(@PathVariable int numeroPagina){
+		Pageable page = PageRequest.of(numeroPagina, 3);//identificando o numero da pagina e a quantidade de resultados por pagina
+		return produtoRepository.findAll(page);
+		
 	}
 	
 	@GetMapping(path = "/{id}")
