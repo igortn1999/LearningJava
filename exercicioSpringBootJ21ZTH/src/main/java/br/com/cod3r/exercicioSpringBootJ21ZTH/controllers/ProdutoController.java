@@ -18,6 +18,13 @@ public class ProdutoController {
 	@Autowired
 	//Essa anotação indica pro Spring que um objeto do tipo ProdutoRepository precisa ser criado em memoria
 	private ProdutoRepository produtoRepository;
+	/*Isso é muito útil quando uma instância de uma outra classe é necessária, e talvez essa classe seja um
+	pouco mais complexa para ser criada. 
+	Então, em vez de fazer a instância dessa outra classe aqui na forma "Classe classe = new Classe();", basta de-
+	clarar como "Classe classe;" e marcar com a anotação @Autowired, que a instaância do tipo classe será entregue
+	para a classe que está chamando. Quem se responsabiliza por esse processo é o framework responsável pela injeção
+	de dependência. No caso, o Spring. 
+	*/
 	
 	@PostMapping
 	public @ResponseBody Produto novoProduto(@RequestParam String nome) {
