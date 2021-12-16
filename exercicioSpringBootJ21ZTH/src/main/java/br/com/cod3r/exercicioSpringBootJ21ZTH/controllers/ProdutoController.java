@@ -27,13 +27,12 @@ public class ProdutoController {
 	*/
 	
 	@PostMapping
-	public @ResponseBody Produto novoProduto(@RequestParam String nome) {
+	public @ResponseBody Produto novoProduto(@RequestParam String nome,
+											@RequestParam double preco,
+											@RequestParam double desconto) {
 		//@ResponseBody indica que o Produto faz parte do corpo da resposta 
-		Produto produto = new Produto(nome);
+		Produto produto = new Produto(nome, preco, desconto);
 		produtoRepository.save(produto);
 		return produto;
 	}
-	
-	
-
 }
