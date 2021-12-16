@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.cod3r.exercicioSpringBootJ21ZTH.models.Cliente;
+import br.com.cod3r.exercicioSpringBootJ21ZTH.model.entities.Cliente;
 
 @RestController
 @RequestMapping(path = "/clientes")//indicando que toda essa classe está mapeada

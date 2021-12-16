@@ -1,4 +1,4 @@
-package br.com.cod3r.exercicioSpringBootJ21ZTH.models;
+package br.com.cod3r.exercicioSpringBootJ21ZTH.model.entities;
 
 public class Cliente {
 	
