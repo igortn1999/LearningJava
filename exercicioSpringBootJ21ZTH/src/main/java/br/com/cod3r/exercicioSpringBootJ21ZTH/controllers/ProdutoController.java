@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,8 +34,9 @@ public class ProdutoController {
 	de dependência. No caso, o Spring. 
 	*/
 	
-	@PostMapping
-	public @ResponseBody Produto novoProduto(@Valid Produto produto) {
+//	@PostMapping //alterando para RquestMapping para poder utilizar o metodo para POST e PUT também
+	@RequestMapping(method = {RequestMethod.POST, RequestMethod.PUT})
+	public @ResponseBody Produto salvarProduto(@Valid Produto produto) {
 		//@ResponseBody indica que o Produto faz parte do corpo da resposta
 		//@Valid indica que o produto tem que atender às validações definidas dentro dele
 		produtoRepository.save(produto);
@@ -55,11 +57,11 @@ public class ProdutoController {
 		return produtoRepository.findById(id);
 	}
 	
-	@PutMapping
-	public Produto alterarProduto(@Valid Produto produto) {
-		//sempre que houver uma requisição do tipo put, este será o método chamado
-		produtoRepository.save(produto);
-		return produto;
-	}
+//	@PutMapping
+//	public Produto alterarProduto(@Valid Produto produto) {
+//		//sempre que houver uma requisição do tipo put, este será o método chamado
+//		produtoRepository.save(produto);
+//		return produto;
+//	}
 	
 }
