@@ -54,6 +54,11 @@ public class ProdutoController {
 		return produtoRepository.findAll();//retorna todos os produtos. Não é uma boa ideia para sistemas enormes
 	}
 	
+	@GetMapping(path = "/nome/{parteNome}")
+	public Iterable<Produto> obterProdutosPorNome(@PathVariable String parteNome) {
+		return produtoRepository.findByNomeContainingIgnoringCase(parteNome);
+	}
+	
 	@GetMapping(path = "pagina/{numeroPagina}")
 	public Iterable<Produto> obterProdutosPorPagina(@PathVariable int numeroPagina){
 		Pageable page = PageRequest.of(numeroPagina, 3);//identificando o numero da pagina e a quantidade de resultados por pagina
