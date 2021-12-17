@@ -34,7 +34,7 @@ public interface ProdutoRepository extends PagingAndSortingRepository<Produto, I
 	
 	/*Isso tudo é possível modificando apenas esta interface porque o framework to SpringBoot foi criado
 	para que não seja necessário criar todo o esquema por trás desses métodos, basta só utilizar as ferramentas
-	que já estão disponiveis.
+	que já estão disponiveis, e quem se responsabiliza em aplicar essas implementações é o proprio framework.
 	*/
 	
 }
